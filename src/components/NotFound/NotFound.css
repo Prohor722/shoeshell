@@ -1,0 +1,22 @@
+.notFound{
+    margin: 20px auto;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+}
+.notFound img{
+    height: 400px;
+}
+.notFound a{
+    display: block;
+}
+.notFound a>button{
+    /* display: block; */
+    padding: 10px 20px;
+    background-color: rgb(57, 173, 49);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -40px;
+}
