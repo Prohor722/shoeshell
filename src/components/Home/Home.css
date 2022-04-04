@@ -1,8 +1,11 @@
 .cover-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
     margin: 20px 100px;
 }
-.main-image img{
-    height: 600px;
+.intro>h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.site-color{
+    color: rgb(226, 128, 0);
 }

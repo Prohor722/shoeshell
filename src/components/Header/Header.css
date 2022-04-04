@@ -1,8 +1,16 @@
-.nav{
+/* .nav{
     margin-top: 20px;
     margin-bottom: 50px;
-}
+} */
 .nav a{
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 30px;
+    color: black;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+}
+
+.nav a:hover{
+    color: rgb(214, 124, 6);
+    border-bottom: 2px solid rgb(214, 124, 6);
 }

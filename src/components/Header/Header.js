@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='nav'>
+        <div className='nav my-3 d-flex justify-content-center'>
             <Link to="/">Home</Link>
             <Link to="/review">Review</Link>
             <Link to="/dashboard">Dashboard</Link>

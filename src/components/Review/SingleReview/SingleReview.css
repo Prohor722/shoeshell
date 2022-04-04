@@ -1,0 +1,8 @@
+.userReview:hover{
+    background-color: rgba(197, 197, 197, 0.295);
+}
+.userReview img{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
