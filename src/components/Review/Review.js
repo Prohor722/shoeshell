@@ -4,10 +4,13 @@ import useReview from '../hook/useReview'
 
 const Review = ({items}) => {
     const [reviews, setReview ] = useReview([]);
-    let allReview = reviews;
-    (items===3) && allReview.slice(0,3);
-    console.log(items);
-    // console.log(allReview);
+    let allReview = reviews.slice(0,3);
+
+    if(items!==3){
+    allReview= reviews;
+    }
+    // console.log(items);
+    console.log(allReview);
     return (
         <div className='row row-cols-lg-4 row-cols-md-3 g-3 my-5 mx-3 align-items-center justify-content-center'>
             {
