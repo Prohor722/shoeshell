@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "question": "What is context api?",
+        "ans":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vel animi tempora iste facilis? Quaerat quod, corrupti pariatur est nostrum minus? At eligendi iure recusandae fugiat doloribus laudantium illum neque perferendis assumenda officiis non accusantium quis, sunt asperiores repellendus excepturi labore aperiam? Sit aut nam perferendis quisquam quas deserunt magni?"
+    },
+    {
+        "id": 2,
+        "question": "What is semantic tag ?",
+        "ans":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vel animi tempora iste facilis? Quaerat quod, corrupti pariatur est nostrum minus? At eligendi iure recusandae fugiat doloribus laudantium illum neque perferendis assumenda officiis non accusantium quis, sunt asperiores repellendus excepturi labore aperiam? Sit aut nam perferendis quisquam quas deserunt magni?"
+    },
+    {
+        "id": 3,
+        "question": "Inline block and inline block elements difference",
+        "ans":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vel animi tempora iste facilis? Quaerat quod, corrupti pariatur est nostrum minus? At eligendi iure recusandae fugiat doloribus laudantium illum neque perferendis assumenda officiis non accusantium quis, sunt asperiores repellendus excepturi labore aperiam? Sit aut nam perferendis quisquam quas deserunt magni?"
+    }
+]
