@@ -1,5 +1,9 @@
+.userReview{
+    border: 2px solid wheat;
+}
 .userReview:hover{
     background-color: rgba(197, 197, 197, 0.295);
+    border: 2px solid rgba(95, 94, 94, 0.212);
 }
 .userReview img{
     height: 70px;
