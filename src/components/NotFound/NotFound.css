@@ -4,7 +4,8 @@
     font-size: 20px;
 }
 .notFound img{
-    height: 400px;
+    max-height: 400px;
+    max-width: 500px;
 }
 .notFound a{
     display: block;

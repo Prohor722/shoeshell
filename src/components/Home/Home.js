@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../Header/Header';
 import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
     return (
-        <>
+        <div>
+            <Header></Header>
+
             <div className='cover-container row m-0'>
                 <div className='d-flex flex-column align-items-center justify-content-center intro col-md-8 m-0 p-0'>
                     <h1 className='bg-dark text-light'>Our Des<span className='site-color'>i</span>gn your style..</h1>
@@ -23,7 +26,7 @@ const Home = () => {
                     <button>See all review</button>
                 </Link>
             </div>
-        </>
+        </div>
     );
 };
 
