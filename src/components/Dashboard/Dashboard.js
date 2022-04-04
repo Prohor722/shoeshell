@@ -57,12 +57,12 @@ const Dashboard = () => {
                     <Tooltip />
                     <Legend />
 
-                    <XAxis dataKey="month" type="number" label={{ value: 'Month', position: 'insideBottomRight', offset: 0 }} />
-                    <YAxis unit="ms" type="number" label={{ value: 'Time', angle: -90, position: 'insideLeft' }} />
-                    <Scatter name="red" dataKey="red" fill="red" />
-                    <Scatter name="blue" dataKey="blue" fill="blue" />
-                    <Line dataKey="investment" stroke="blue" dot={false} activeDot={false} legendType="none" />
-                    <Line dataKey="revenue" stroke="red" dot={false} activeDot={false} legendType="none" />
+                    <XAxis dataKey="sell" type="number" label={{ value: 'Sell', position: 'insideBottomRight', offset: 0 }} />
+                    <YAxis unit="tk" type="number" label={{ value: ' ', angle: -90, position: 'insideLeft' }} />
+                    <Scatter name="investment" dataKey="investment" fill="red" />
+                    <Scatter name="revenue" dataKey="revenue" fill="blue" />
+                    <Line dataKey="investment" stroke="red" dot={false} activeDot={false} legendType="none" />
+                    <Line dataKey="revenue" stroke="blue" dot={false} activeDot={false} legendType="none" />
                 </ComposedChart>
             </div>
         </div>
