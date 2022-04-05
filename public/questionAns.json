@@ -2,16 +2,16 @@
     {
         "id": 1,
         "question": "What is context api?",
-        "ans":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vel animi tempora iste facilis? Quaerat quod, corrupti pariatur est nostrum minus? At eligendi iure recusandae fugiat doloribus laudantium illum neque perferendis assumenda officiis non accusantium quis, sunt asperiores repellendus excepturi labore aperiam? Sit aut nam perferendis quisquam quas deserunt magni?"
+        "ans":"To send data from one component to another we have to pass using props. But if the component is not directly connected with the component that need to pass data then we have to pass data by props drilling. Props drilling is, passing data to any component that is not directly connected and pass data by passing through its parents. All though the other components does not need to use that data but have to pass through to access their child component. To avoid this props drilling we use context api. Context api allows to pass data without props drilling for that reason other components does not need to carry that data or able to access."
     },
     {
         "id": 2,
         "question": "What is semantic tag ?",
-        "ans":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vel animi tempora iste facilis? Quaerat quod, corrupti pariatur est nostrum minus? At eligendi iure recusandae fugiat doloribus laudantium illum neque perferendis assumenda officiis non accusantium quis, sunt asperiores repellendus excepturi labore aperiam? Sit aut nam perferendis quisquam quas deserunt magni?"
+        "ans":"Semantic tags are those tags that are more meaningful and understandable for browsers and humans. Non semantic tag like <span>, <div>, etc are not clearly define what is this for but semantic tags like <table>, <article> ,etc clearly shows what type of data it carries. Because semantic tags are more clear to browsers so it helps in search in engine optimization.Also, semantic tags gives many more hooks for styling content"
     },
     {
         "id": 3,
         "question": "Inline block and inline block elements difference",
-        "ans":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vel animi tempora iste facilis? Quaerat quod, corrupti pariatur est nostrum minus? At eligendi iure recusandae fugiat doloribus laudantium illum neque perferendis assumenda officiis non accusantium quis, sunt asperiores repellendus excepturi labore aperiam? Sit aut nam perferendis quisquam quas deserunt magni?"
+        "ans":"Inline: takes the width it require does not take exes space and also does not start on a new line. Inline element allows margins and padding on its sides(left,right) but does not allow margin or padding on top or bottom. Block: starts with a new line, also takes full width. But also height and width can be set.Block elements allow margin and padding on all sides(top,bottom,left,right). Inline-block: a inline element but act like a block element. It does not starts in a new line.inline-block also allows margin and padding on all sides like block elements. But height and width are changeable."
     }
 ]

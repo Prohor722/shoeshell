@@ -23,7 +23,7 @@ const Home = () => {
                 <h1>Customer Review</h1>
                 <Review items={3}></Review>
                 <Link to='/review'>
-                    <button>See all review</button>
+                    <button className='review-btn'>See all review</button>
                 </Link>
             </div>
         </div>

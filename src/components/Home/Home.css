@@ -17,7 +17,7 @@
 .review h1{
     color: rgb(77, 77, 77);
 }
-.review button{
+.review-btn{
     background-color: aqua;
     padding: 10px 20px;
     border: 0;
@@ -25,7 +25,7 @@
     background-color: rgb(77, 77, 77);
     color: white;
 }
-.review button:hover{
+.review-btn:hover{
     color:rgb(49, 49, 49);
     border: 2px solid rgb(226, 128, 0);
     background-color: white;
