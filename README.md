@@ -1,6 +1,6 @@
 # ShoeShell
 
-Live website link [Click here](https://github.com/facebook/create-react-app).
+Live website link [Click here](https://shoeshell.netlify.app/).
 
 ## Features
 A list of features in this project:
@@ -8,4 +8,3 @@ A list of features in this project:
 * Chart Analysis
 * JSON data load
 * Responsive View
-* [Library name](https://example.com): Version 1234
